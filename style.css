@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/burger-8743791_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header i {
+    cursor: pointer;
+}
+
+.nav-item .nav-link {
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+header h5 {
+    color: rgb(255, 132, 0);
+}
+
+.order {
+    text-decoration: none;
+    background-color: rgb(255, 132, 0);
+    color: white;
+    padding: 5px 10px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    margin: 30px 40px;
+    background-color: rgba(223, 208, 208, 0.618);
+}
+
+
+/* about */
